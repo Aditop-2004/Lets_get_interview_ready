@@ -1,9 +1,13 @@
+
+//whenever the message is typed it will automatically scroll to the bottom
 let messagesContainer = document.getElementById('messages');
 messagesContainer.scrollTop = messagesContainer.scrollHeight;
 
+//show and hide the members and chat
 const memberContainer = document.getElementById('members__container');
 const memberButton = document.getElementById('members__button');
 
+//show and hide the members and chat
 const chatContainer = document.getElementById('messages__container');
 const chatButton = document.getElementById('chat__button');
 
